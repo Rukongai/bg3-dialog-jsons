@@ -1,0 +1,281 @@
+{
+  "Path": "Mods/Gustav/Story/Dialogs/Act1/Crash/CRA_Escape_AD_MindflayerThrall01_Comment.lsj",
+  "UUID": "823181e4-5716-940b-73a7-8d362719be1d",
+  "Category": "Automated NPC Dialog",
+  "DefaultAddressedSpeakers": {
+    "1": -1,
+    "2": -1,
+    "0": -1
+  },
+  "RootNodes": [
+    "3e0dda77-6977-0e3c-2c29-214c4ad62532",
+    "441e7fdc-4823-24f8-fed1-aacb2f0236fd",
+    "2d591a33-fd74-d361-e43f-80b4766f4043"
+  ],
+  "Nodes": {
+    "2d591a33-fd74-d361-e43f-80b4766f4043": {
+      "UUID": "2d591a33-fd74-d361-e43f-80b4766f4043",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "bfac9fa1-90b5-9f78-bfd0-c45313f43752",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "f0caaffe-0fc2-3bcd-7873-d9d8e3aecca8",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "bfac9fa1-90b5-9f78-bfd0-c45313f43752",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "f0caaffe-0fc2-3bcd-7873-d9d8e3aecca8",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_02"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "82e407e7-a519-2c28-0308-37aa8baea38b",
+              "Text": {
+                "Handle": "h7368392bg5185g48d1gb675g7a9eb796599b",
+                "Value": "Rope. I need rope."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N13",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;672",
+        "sourcetemplate": ""
+      }
+    },
+    "3e0dda77-6977-0e3c-2c29-214c4ad62532": {
+      "UUID": "3e0dda77-6977-0e3c-2c29-214c4ad62532",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "bfac9fa1-90b5-9f78-bfd0-c45313f43752",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "f0caaffe-0fc2-3bcd-7873-d9d8e3aecca8",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_02"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "bfac9fa1-90b5-9f78-bfd0-c45313f43752",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_01"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "5aac837d-5907-3f7f-76af-d20e216dacd1",
+              "Text": {
+                "Handle": "h61a765cfg06ceg421fg9444g960b904e8f47",
+                "Value": "I'll just pretend all of this isn't happening."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N12",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;234",
+        "sourcetemplate": ""
+      }
+    },
+    "441e7fdc-4823-24f8-fed1-aacb2f0236fd": {
+      "UUID": "441e7fdc-4823-24f8-fed1-aacb2f0236fd",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "bfac9fa1-90b5-9f78-bfd0-c45313f43752",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "f0caaffe-0fc2-3bcd-7873-d9d8e3aecca8",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_02"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "f0caaffe-0fc2-3bcd-7873-d9d8e3aecca8",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "2fac398c-7e8e-63d6-eae2-a19b338477bb",
+              "Text": {
+                "Handle": "hb48fa813g8d07g42c0gae0cgdfc8a1e96b2e",
+                "Value": "Need to get out of here."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N11",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;453",
+        "sourcetemplate": ""
+      }
+    }
+  },
+  "SpeakerDict": {
+    "0": {
+      "IsPeanutSpeaker": false,
+      "SpeakerMappingId": "22f0b8f7-dac3-f415-6932-ad7a4e38668b",
+      "Index": 0,
+      "List": [
+        "6aaf8399-4fe5-4ac5-b87c-aeed77b0064b"
+      ],
+      "SpeakerCharacter": null,
+      "SpeakerGroupName": null
+    }
+  }
+}

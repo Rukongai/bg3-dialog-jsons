@@ -1,0 +1,90 @@
+{
+  "Path": "Mods/GustavDev/Story/Dialogs/Act2/Haven/HAV_TakingIsobel_AD_SpyAtEntrance.lsj",
+  "UUID": "4e005521-a7ec-58d8-9000-db11d59e23e4",
+  "Category": "Automated NPC Dialog",
+  "DefaultAddressedSpeakers": {
+    "0": -1
+  },
+  "RootNodes": [
+    "7e68817f-b348-4bf5-963c-3b590b8eeb6a"
+  ],
+  "Nodes": {
+    "7e68817f-b348-4bf5-963c-3b590b8eeb6a": {
+      "UUID": "7e68817f-b348-4bf5-963c-3b590b8eeb6a",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": 0,
+      "Children": [],
+      "CheckFlags": [],
+      "SetFlags": [],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "59e60d1a-ac7f-456a-8d56-2107a9c52d74",
+              "Text": {
+                "Handle": "hda78d7a4g3144g400agbfa7gf6cf991ac041",
+                "Value": "Need to be back at my post."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "CustomCineArtKeysPresent": "False",
+        "CustomLightingPresent": "False",
+        "CustomSoundPresent": "False",
+        "CustomVFXPresent": "False",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N1",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "TemplateNodeUUID": "00000000-0000-0000-0000-000000000000",
+        "TemplateVersion": "0",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;15",
+        "sourcetemplate": ""
+      }
+    }
+  },
+  "SpeakerDict": {
+    "0": {
+      "IsPeanutSpeaker": false,
+      "SpeakerMappingId": "69ce8b9a-e9c9-9c1d-1dc5-9c372b587b8f",
+      "Index": 0,
+      "List": [
+        "acb1dd9e-952b-4281-8e30-ec6f671493a6"
+      ],
+      "SpeakerCharacter": {
+        "DisplayName": "Fist Marcus",
+        "Type": "character",
+        "MapKey": "acb1dd9e-952b-4281-8e30-ec6f671493a6",
+        "Name": "S_HAV_FlamingSpy",
+        "ParentTemplateId": null,
+        "TemplateName": "e135793f-301a-47a6-9880-c9d766e17df7"
+      },
+      "SpeakerGroupName": null
+    }
+  }
+}

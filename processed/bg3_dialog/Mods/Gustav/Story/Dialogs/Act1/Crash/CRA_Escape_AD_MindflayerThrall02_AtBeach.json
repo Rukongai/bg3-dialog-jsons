@@ -1,0 +1,392 @@
+{
+  "Path": "Mods/Gustav/Story/Dialogs/Act1/Crash/CRA_Escape_AD_MindflayerThrall02_AtBeach.lsj",
+  "UUID": "0c71993f-afb1-25ab-4c6d-cc2080d5ca69",
+  "Category": "Repeated automated NPC Dialog",
+  "DefaultAddressedSpeakers": {
+    "0": -1
+  },
+  "RootNodes": [
+    "4045198a-72ce-866d-ed1a-6a470b71762a",
+    "392db735-8c3a-bb55-eff3-5dfa70caa40c",
+    "e49fe6df-faf8-b926-c6de-6555bbe1ab87",
+    "7c8670ba-b256-fb1e-1513-e99844ec7c8f"
+  ],
+  "Nodes": {
+    "392db735-8c3a-bb55-eff3-5dfa70caa40c": {
+      "UUID": "392db735-8c3a-bb55-eff3-5dfa70caa40c",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "3d530722-e73a-87df-323b-d6cdf43c827e",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "eab8e9ed-5fd6-1709-306c-0c8d736cec98",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "f305590f-5d06-3ec2-cf58-48cecaff390f",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "eab8e9ed-5fd6-1709-306c-0c8d736cec98",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_01"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "daf6f9be-89d8-c195-b021-fb24bb367077",
+              "Text": {
+                "Handle": "hee987c10g789eg44a9gbadbga08d6c7cf981",
+                "Value": "I'm not touching that wreck. Not even <i>looking</i> at it."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N4",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "Shaken but resolute. Refusing to engage with this thing that's alien to her, no matter how useful it might be",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;234",
+        "sourcetemplate": ""
+      }
+    },
+    "4045198a-72ce-866d-ed1a-6a470b71762a": {
+      "UUID": "4045198a-72ce-866d-ed1a-6a470b71762a",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "3d530722-e73a-87df-323b-d6cdf43c827e",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "eab8e9ed-5fd6-1709-306c-0c8d736cec98",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "f305590f-5d06-3ec2-cf58-48cecaff390f",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "3d530722-e73a-87df-323b-d6cdf43c827e",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "d349a25b-d67e-b154-b183-785894b45ae9",
+              "Text": {
+                "Handle": "h565c45f3g3e50g40c4ga643gef669ac510ff",
+                "Value": "I can't... I don't recognise this stretch of the river. "
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N5",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "frustrated - she's their navigator and she always knows the way, but this thing has messed with herhead",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;15",
+        "sourcetemplate": ""
+      }
+    },
+    "7c8670ba-b256-fb1e-1513-e99844ec7c8f": {
+      "UUID": "7c8670ba-b256-fb1e-1513-e99844ec7c8f",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "3d530722-e73a-87df-323b-d6cdf43c827e",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "eab8e9ed-5fd6-1709-306c-0c8d736cec98",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "f305590f-5d06-3ec2-cf58-48cecaff390f",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "3d530722-e73a-87df-323b-d6cdf43c827e",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "eab8e9ed-5fd6-1709-306c-0c8d736cec98",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "f305590f-5d06-3ec2-cf58-48cecaff390f",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "0770b6b6-72a7-3c3e-66ad-d6ce5080cc3b",
+              "Text": {
+                "Handle": "h176166cdgd7dbg4c8bgb2e3g4bb3238a8ed8",
+                "Value": "These memories. They aren't bloody <i>mine.</i>"
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N2",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "with soft horror, close to tears as she's remembering flashes of how the creature manipulated her",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;672",
+        "sourcetemplate": ""
+      }
+    },
+    "e49fe6df-faf8-b926-c6de-6555bbe1ab87": {
+      "UUID": "e49fe6df-faf8-b926-c6de-6555bbe1ab87",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "3d530722-e73a-87df-323b-d6cdf43c827e",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "eab8e9ed-5fd6-1709-306c-0c8d736cec98",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "f305590f-5d06-3ec2-cf58-48cecaff390f",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "f305590f-5d06-3ec2-cf58-48cecaff390f",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "79f85269-bc22-c4e2-f42b-e3dfe53b39c0",
+              "Text": {
+                "Handle": "hf9cbf29cgbdd3g43e5gac75ga24fdcaf2dc2",
+                "Value": "We need to move - what if there's more of those things?"
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N3",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "Looking around, urging her comrades on",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;453",
+        "sourcetemplate": ""
+      }
+    }
+  },
+  "SpeakerDict": {
+    "0": {
+      "IsPeanutSpeaker": false,
+      "SpeakerMappingId": "3cac8842-8c1f-b5cd-9aa7-fe959a6a6c73",
+      "Index": 0,
+      "List": [
+        "5ba57417-8039-42f3-bb96-23aa06a33324"
+      ],
+      "SpeakerCharacter": null,
+      "SpeakerGroupName": null
+    }
+  }
+}

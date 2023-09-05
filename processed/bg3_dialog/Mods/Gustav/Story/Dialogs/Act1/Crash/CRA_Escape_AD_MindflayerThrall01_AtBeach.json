@@ -1,0 +1,500 @@
+{
+  "Path": "Mods/Gustav/Story/Dialogs/Act1/Crash/CRA_Escape_AD_MindflayerThrall01_AtBeach.lsj",
+  "UUID": "dd8711d1-b5f5-9985-3330-dcbd6239111b",
+  "Category": "Repeated automated NPC Dialog",
+  "DefaultAddressedSpeakers": {
+    "0": -1
+  },
+  "RootNodes": [
+    "fe159b47-379b-2de4-564c-549664292f85",
+    "4da2bef1-db17-47ab-e0d9-14aa2c75c951",
+    "39afb83b-2225-593f-6fd2-43973dc6d674",
+    "2b01851a-cb9f-c9b6-0f8c-11f8c6c2162c"
+  ],
+  "Nodes": {
+    "157fcf9f-d58a-21ce-47e0-d6d4157176d1": {
+      "UUID": "157fcf9f-d58a-21ce-47e0-d6d4157176d1",
+      "Constructor": "TagAnswer",
+      "EndNode": true,
+      "Root": false,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [],
+      "SetFlags": [],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "94bcb6b1-af50-1b46-5839-a396fa5f0085",
+              "Text": {
+                "Handle": "hcad21f55g02bbg407cgb649g23d32eb9c442",
+                "Value": "Maybe I should."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N7",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Answer",
+        "position": "335;672",
+        "sourcetemplate": ""
+      }
+    },
+    "2b01851a-cb9f-c9b6-0f8c-11f8c6c2162c": {
+      "UUID": "2b01851a-cb9f-c9b6-0f8c-11f8c6c2162c",
+      "Constructor": "TagGreeting",
+      "EndNode": false,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [
+        "157fcf9f-d58a-21ce-47e0-d6d4157176d1"
+      ],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "54424798-b8a6-9e2c-1694-67a541c8edd2",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "566a3ed5-96cf-0bdc-e8d2-33c694364ddc",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "a6ff1306-4bf9-2cc3-3abd-5a48b738fca3",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "54424798-b8a6-9e2c-1694-67a541c8edd2",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "566a3ed5-96cf-0bdc-e8d2-33c694364ddc",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "a6ff1306-4bf9-2cc3-3abd-5a48b738fca3",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "dd80cd58-736f-7fb0-a598-86feb6b6a8ae",
+              "Text": {
+                "Handle": "hd86ea88eg4b0bg4017g8643g1602d4ea98f2",
+                "Value": "Rosie's going to think I've taken up the drink again."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N3",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;672",
+        "sourcetemplate": ""
+      }
+    },
+    "39afb83b-2225-593f-6fd2-43973dc6d674": {
+      "UUID": "39afb83b-2225-593f-6fd2-43973dc6d674",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "54424798-b8a6-9e2c-1694-67a541c8edd2",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "566a3ed5-96cf-0bdc-e8d2-33c694364ddc",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "a6ff1306-4bf9-2cc3-3abd-5a48b738fca3",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "a6ff1306-4bf9-2cc3-3abd-5a48b738fca3",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "6ad53b28-7942-dde9-de6e-271fd0358249",
+              "Text": {
+                "Handle": "h0f8b76f3g4addg435eg8cd3gb1d4d1a32280",
+                "Value": "You're not hearing voices. You're just... talking to yourself."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N4",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;453",
+        "sourcetemplate": ""
+      }
+    },
+    "4da2bef1-db17-47ab-e0d9-14aa2c75c951": {
+      "UUID": "4da2bef1-db17-47ab-e0d9-14aa2c75c951",
+      "Constructor": "TagGreeting",
+      "EndNode": false,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [
+        "671608cc-3d19-c9c4-e515-dbc168d64fa3"
+      ],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "54424798-b8a6-9e2c-1694-67a541c8edd2",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "566a3ed5-96cf-0bdc-e8d2-33c694364ddc",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "a6ff1306-4bf9-2cc3-3abd-5a48b738fca3",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "54424798-b8a6-9e2c-1694-67a541c8edd2",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_01"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "91a72708-6857-a015-d253-13e55b0eba96",
+              "Text": {
+                "Handle": "h72ded20fg0270g463fga27bg6b21cc8c449a",
+                "Value": "Maybe use something from that ship?"
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N5",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;234",
+        "sourcetemplate": ""
+      }
+    },
+    "671608cc-3d19-c9c4-e515-dbc168d64fa3": {
+      "UUID": "671608cc-3d19-c9c4-e515-dbc168d64fa3",
+      "Constructor": "TagAnswer",
+      "EndNode": true,
+      "Root": false,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [],
+      "SetFlags": [],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "fea99d37-43e3-3f6e-45de-2d98892d087d",
+              "Text": {
+                "Handle": "h5df815dag4fa2g4474gbbbdg9a94b2019611",
+                "Value": "No. Ilmater's ashes, I'll not <i>touch</i> that thing."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N6",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Answer",
+        "position": "335;234",
+        "sourcetemplate": ""
+      }
+    },
+    "fe159b47-379b-2de4-564c-549664292f85": {
+      "UUID": "fe159b47-379b-2de4-564c-549664292f85",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "54424798-b8a6-9e2c-1694-67a541c8edd2",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_01"
+            },
+            {
+              "UUID": "566a3ed5-96cf-0bdc-e8d2-33c694364ddc",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_02"
+            },
+            {
+              "UUID": "a6ff1306-4bf9-2cc3-3abd-5a48b738fca3",
+              "paramval": 0,
+              "value": false,
+              "Name": "LocalFlag_03"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "SetFlags": [
+        {
+          "Flags": [
+            {
+              "UUID": "566a3ed5-96cf-0bdc-e8d2-33c694364ddc",
+              "paramval": 0,
+              "value": true,
+              "Name": "LocalFlag_02"
+            }
+          ],
+          "Type": "Local"
+        }
+      ],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "13087ac3-6506-d5f1-e187-72280ee12b22",
+              "Text": {
+                "Handle": "h416f46fag5bdeg49e4gb489g595cf40d92db",
+                "Value": "Our boat. All our bloody <i>gear</i>.<br>"
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N2",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;15",
+        "sourcetemplate": ""
+      }
+    }
+  },
+  "SpeakerDict": {
+    "0": {
+      "IsPeanutSpeaker": false,
+      "SpeakerMappingId": "cd66c6c4-c28b-7824-7682-c5fab91aafcc",
+      "Index": 0,
+      "List": [
+        "6aaf8399-4fe5-4ac5-b87c-aeed77b0064b"
+      ],
+      "SpeakerCharacter": null,
+      "SpeakerGroupName": null
+    }
+  }
+}

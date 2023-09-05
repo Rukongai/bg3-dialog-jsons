@@ -1,0 +1,77 @@
+{
+  "Path": "Mods/Gustav/Story/Dialogs/Act1/Crash/CRA_Escape_AD_MindflayerThrall03_AtBeach.lsj",
+  "UUID": "dd85a9f7-6cb7-6e81-1ee3-3a2fa0110071",
+  "Category": "Repeated automated NPC Dialog",
+  "DefaultAddressedSpeakers": {
+    "0": -1
+  },
+  "RootNodes": [
+    "faf1fe8b-dad6-12c5-f9bb-8a2943146a11"
+  ],
+  "Nodes": {
+    "faf1fe8b-dad6-12c5-f9bb-8a2943146a11": {
+      "UUID": "faf1fe8b-dad6-12c5-f9bb-8a2943146a11",
+      "Constructor": "TagGreeting",
+      "EndNode": true,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [],
+      "SetFlags": [],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "083105d5-ef39-4017-7cd0-2586b1b817d9",
+              "Text": {
+                "Handle": "h580c71d0g5116g448fga0f5g53364314bc2e",
+                "Value": "It's not safe here - keep moving."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N1",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "impatient, hurried, anxious",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Greeting",
+        "position": "15;15",
+        "sourcetemplate": ""
+      }
+    }
+  },
+  "SpeakerDict": {
+    "0": {
+      "IsPeanutSpeaker": false,
+      "SpeakerMappingId": "3bd00a10-7e8d-6802-9196-af1cc1211906",
+      "Index": 0,
+      "List": [
+        "120d3b24-0c4d-4c7f-ba42-f60756607f5f"
+      ],
+      "SpeakerCharacter": null,
+      "SpeakerGroupName": null
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "Path": "Mods/Gustav/Story/Dialogs/Act1/Crash/CRA_MindFlayerControl_AD_ThrallsDigging.lsj",
+  "UUID": "93213529-84ce-c5f2-6c01-2ae80d96d48a",
+  "Category": "Automated NPC Dialog",
+  "DefaultAddressedSpeakers": {
+    "0": -1,
+    "1": -1,
+    "2": -1,
+    "3": -1
+  },
+  "RootNodes": [
+    "0b326c41-b54c-10c9-a616-17cf2364e668"
+  ],
+  "Nodes": {
+    "0b326c41-b54c-10c9-a616-17cf2364e668": {
+      "UUID": "0b326c41-b54c-10c9-a616-17cf2364e668",
+      "Constructor": "TagGreeting",
+      "EndNode": false,
+      "Root": true,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [
+        "e6ec204e-4a81-15f5-7dba-dab971e083f8"
+      ],
+      "CheckFlags": [],
+      "SetFlags": [],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "94be87ec-9995-c1f9-08cf-dcd4c106c6eb",
+              "Text": {
+                "Handle": "hbf98af6egddb8g45eeg8d5fgfb7c15e510e4",
+                "Value": "Quickly! Save her!"
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "with their backs to the player, the NPCs are attempting to move some wreckage pinning down the wounded mind flayer",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N12",
+        "InternalNodeContext": "",
+        "IsCustomNode": "True",
+        "MusicTags": "",
+        "NodeContext": "panicked",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "TemplateNodeUUID": "00000000-0000-0000-0000-000000000000",
+        "TemplateVersion": "0",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Select Speaker",
+        "position": "15;15",
+        "sourcetemplate": ""
+      }
+    },
+    "af39f7c3-ccee-9798-3b49-45c59f9a9703": {
+      "UUID": "af39f7c3-ccee-9798-3b49-45c59f9a9703",
+      "Constructor": "TagAnswer",
+      "EndNode": false,
+      "Root": false,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [
+        "cd8811cf-55b6-78dc-18a7-00b2f0519a19"
+      ],
+      "CheckFlags": [],
+      "SetFlags": [],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "c980060e-1fe5-15d7-7098-f727a1756661",
+              "Text": {
+                "Handle": "hd37f5212g4446g4b07ga562g3d0efc208eb3",
+                "Value": "Just get her out!"
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N30",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "panicking, shouting orders to a companion (not the player)",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "TemplateNodeUUID": "00000000-0000-0000-0000-000000000000",
+        "TemplateVersion": "0",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Answer",
+        "position": "655;15",
+        "sourcetemplate": ""
+      }
+    },
+    "b9235f4f-b089-b237-5742-10b98a58bb67": {
+      "UUID": "b9235f4f-b089-b237-5742-10b98a58bb67",
+      "Constructor": "TagAnswer",
+      "EndNode": true,
+      "Root": false,
+      "ShowOnce": false,
+      "SpeakerNo": 0,
+      "AddressedSpeaker": -1,
+      "Children": [],
+      "CheckFlags": [],
+      "SetFlags": [],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "a897a417-1f43-92a7-2968-bd0e0fc04fe3",
+              "Text": {
+                "Handle": "hbbf8dd1fg412ag4d3fg8d50g236d94acc5b1",
+                "Value": "This is madness."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N32",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "despair",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "TemplateNodeUUID": "00000000-0000-0000-0000-000000000000",
+        "TemplateVersion": "0",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Answer",
+        "position": "1295;15",
+        "sourcetemplate": ""
+      }
+    },
+    "cd8811cf-55b6-78dc-18a7-00b2f0519a19": {
+      "UUID": "cd8811cf-55b6-78dc-18a7-00b2f0519a19",
+      "Constructor": "TagAnswer",
+      "EndNode": false,
+      "Root": false,
+      "ShowOnce": false,
+      "SpeakerNo": 1,
+      "AddressedSpeaker": -1,
+      "Children": [
+        "b9235f4f-b089-b237-5742-10b98a58bb67"
+      ],
+      "CheckFlags": [],
+      "SetFlags": [],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "f84d29d2-a0a2-1975-4111-99f43cfc1b77",
+              "Text": {
+                "Handle": "ha732cd6cg12a3g4cc2gac4egc4a99d022349",
+                "Value": "I'm trying."
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N31",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "desperate",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "TemplateNodeUUID": "00000000-0000-0000-0000-000000000000",
+        "TemplateVersion": "0",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Answer",
+        "position": "975;15",
+        "sourcetemplate": ""
+      }
+    },
+    "e6ec204e-4a81-15f5-7dba-dab971e083f8": {
+      "UUID": "e6ec204e-4a81-15f5-7dba-dab971e083f8",
+      "Constructor": "TagAnswer",
+      "EndNode": false,
+      "Root": false,
+      "ShowOnce": false,
+      "SpeakerNo": 2,
+      "AddressedSpeaker": -1,
+      "Children": [
+        "af39f7c3-ccee-9798-3b49-45c59f9a9703"
+      ],
+      "CheckFlags": [],
+      "SetFlags": [],
+      "TaggedTextList": [
+        {
+          "HasTagRule": false,
+          "RuleGroup": {
+            "TagCombineOp": 0,
+            "Rules": [],
+            "RuleString": ""
+          },
+          "TagTexts": [
+            {
+              "LineId": "85a12aad-76b7-808b-1366-2603b6ef7bd2",
+              "Text": {
+                "Handle": "h8d2aaf49gb01cg4ee3gb81egaa4f909c057d",
+                "Value": "So much blood... "
+              }
+            }
+          ]
+        }
+      ],
+      "EditorData": {
+        "AnimationTags": "",
+        "Attitude": "Default",
+        "CinematicNodeContext": "",
+        "CinematicObjects": "",
+        "Emotion": "Default",
+        "ForceDisableIsCustomNode": "False",
+        "ID": "N29",
+        "InternalNodeContext": "",
+        "IsCustomNode": "False",
+        "MusicTags": "",
+        "NodeContext": "trying to help somebody from underneath debris at a crash site",
+        "Quality": "Bronze",
+        "SFXTags": "",
+        "StateChangeTags": "",
+        "TemplateNodeUUID": "00000000-0000-0000-0000-000000000000",
+        "TemplateVersion": "0",
+        "VFXTags": "",
+        "collapsed": "False",
+        "logicalname": "Answer",
+        "position": "335;15",
+        "sourcetemplate": ""
+      }
+    }
+  },
+  "SpeakerDict": {
+    "0": {
+      "IsPeanutSpeaker": false,
+      "SpeakerMappingId": "ffa80fa8-c3c2-00db-7ef3-834a08ed71b1",
+      "Index": 0,
+      "List": [
+        "6aaf8399-4fe5-4ac5-b87c-aeed77b0064b"
+      ],
+      "SpeakerCharacter": null,
+      "SpeakerGroupName": null
+    },
+    "1": {
+      "IsPeanutSpeaker": false,
+      "SpeakerMappingId": "b51121ad-d306-818d-a986-bab73695e6ed",
+      "Index": 1,
+      "List": [
+        "5ba57417-8039-42f3-bb96-23aa06a33324"
+      ],
+      "SpeakerCharacter": null,
+      "SpeakerGroupName": null
+    },
+    "2": {
+      "IsPeanutSpeaker": false,
+      "SpeakerMappingId": "2e5e9280-6bf3-3c17-4782-e320a83269c2",
+      "Index": 2,
+      "List": [
+        "120d3b24-0c4d-4c7f-ba42-f60756607f5f"
+      ],
+      "SpeakerCharacter": null,
+      "SpeakerGroupName": null
+    }
+  }
+}
